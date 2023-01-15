@@ -14,7 +14,7 @@ $date1 = date("m/d");
 $date2 = date("H:i");
 
 // ファイルを読み込む
-$file = fopen("./data/data2.txt","a");
+$file = fopen("../data/data3.txt","a");
 // ファイルに書き込む
 fwrite($file,$date1.",".$date2.",".$gender.",".$old.",".$last.",".$how.",".$favorite.",".$type.","."\n");
 // ファイルを閉じる

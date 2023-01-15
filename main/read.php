@@ -16,7 +16,7 @@ function h ($value) {
 }
 
 // ファイルを変数に格納
-$filename = '../data/data2.txt';
+$filename = '../data/data3.txt';
 
 // fopenでファイルを開く（'r'は読み込みモードで開く）
 $fp = fopen($filename, 'r');
