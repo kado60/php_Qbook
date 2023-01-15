@@ -1,0 +1,63 @@
+body{
+	font-family: Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background:#6CD8FF;
+}
+
+.mainContents{
+	padding:30px 20px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 40px;
+	background:#F5F4F2;
+    margin-top:20px;
+	line-height:2em;
+	color:#664949;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainContents select{
+    margin-top: 10px;
+	border:3px solid #664949;  /* 枠線 */
+	border-radius: 0.9em;   /* 角丸 */
+	padding: 0.5em;          /* 内側の余白量 */
+	background-color: snow;  /* 背景色 */
+	font-size: 1.2em;          /* 文字サイズ */
+	line-height: 1.2;        /* 行の高さ */	
+}
+
+.mainContents input{
+    margin-top: 10px;
+	border:3px solid #664949;  /* 枠線 */
+	border-radius: 0.3em;   /* 角丸 */
+	padding: 0.1em;          /* 内側の余白量 */
+    padding-left: 12px;
+	background-color: snow;  /* 背景色 */
+	font-size: 1.2em;          /* 文字サイズ */
+	line-height: 1.2;        /* 行の高さ */	
+}
+
+#submit{
+    border:5px solid #664949;  /* 枠線 */
+	border-radius: 0.9em;   /* 角丸 */
+    font-weight: bold;
+    color: #664949;
+}
+
+h1{
+    text-align: center;
+	color:#664949;
+	font-size:3.5em;
+
+}
+
+h2{
+    text-align: center;
+	color:#664949;
+	font-size:2em;
+}
+
+.contents{
+    font-size:20px;
+}
